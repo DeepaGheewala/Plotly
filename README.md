@@ -4,7 +4,7 @@ Rosa is a biological researcher and her role is to document the known and unknow
 
 Rosa thinks that there is a microorganism which supplies the next best taste and believes the bacteria can be found on human body
 
-**Hypothesis** : The ideal bacterial species to make synthetic beef can be found in belly button or atleast someone's belly botton.
+***Hypothesis*** : The ideal bacterial species to make synthetic beef can be found in belly button or atleast someone's belly botton.
 
 To prove the hypothesis she takes samples of people in her neighbourhood and across the countries. She knows that she wants to create engaging and dynamic charts. It's her task to identify the best way to share her information with her audience.
 
