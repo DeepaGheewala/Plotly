@@ -54,7 +54,7 @@ var otu_ids
 
 ### Delivery 2: Bubble Chart
 For each Test ID subject Number the Bubble chart is created.
-<img src="Images/bubbleChart.png"  align="center" height="250" width="1000"></p>
+<p align="center"><img src="Images/bubbleChart.png"  align="center" height="250" width="1000"></p>
 
 Code to generate above chart
 
@@ -86,8 +86,9 @@ Code to generate above chart
 ```
 
 ### Delivery 3: Gauge Chart
-For each Test ID subject Number the Bubble chart is created.
-<img src="Images/GaugeChart.png"  align="center" height="250" width="1000"></p>
+For each Test ID subject Number the Bubble chart is created. 
+
+<p align="center"><img src="Images/GaugeChart.png"  align="center" height="250" width="400"></p>
 
 Code to generate above chart
 
@@ -126,8 +127,53 @@ Code to generate above chart
 ```
 
 ### Delivery 4: Customize the Dashboard
-3 custom changes made for beautifying the dashboard and make it more readable
+3 custom changes made for beautifying the dashboard and make it more readable. 
 
-#### 1) - 
-#### 2) -
-#### 3) -
+#### 1) - Add an image to the jumbotron and change the label color
+<p align="center"><img src="Images/beforehoverlabelchange.png"  align="center" height="250" width="400"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"></p>
+
+Code Snippet
+```html
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 jumbotron text-center" style="background-image: url('images/header.jpg'); background-size: 100%; color:black">
+        <h1 style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: verdana; color: #00FFFF; fontSize:'larger'">Belly Button Biodiversity Dashboard</h1>
+        <p style="color: #FFFFFF">Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+     
+...
+```
+#### 2) - Make Page Responsive
+<p align="center"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"><img src="Images/resizing.png"  align="center" height="250" width="400"></p>
+
+Code Snippet
+
+```html
+<!-- Before responsive page --> 
+<div class="container">
+
+<!-- Make responsive page -->
+<div class="container-fluid">
+   
+```   
+#### 3) - Hover Labels of Barchart
+<p align="center"><img src="Images/beforehoverlabelchange.png"  align="center" height="250" width="400"><img src="Images/hoverLabelchange.png"  align="center" height="250" width="400"></p>
+
+Code Snippet
+```html
+<!-- to change the hoverlabel we need to add this in barData defination -->
+
+ var barData = [{
+      x           :sample_values.slice(0,10).reverse(),
+      y           :yticks,
+      text        :otu_labels.slice(0,10).reverse(),
+      type        :"bar",
+      orientation :"h",
+      mode        :"markers",
+      hoverlabel  : {bgcolor: "white", font: {color: 'red', font_family:"Verdana"} }
+     
+    }];
+```
