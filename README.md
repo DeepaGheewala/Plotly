@@ -130,7 +130,7 @@ Code to generate above chart
 3 custom changes made for beautifying the dashboard and make it more readable. 
 
 #### 1) - Add an image to the jumbotron and change the label color
-<p align="center"><img src="Images/beforehoverlabelchange.png"  align="center" height="250" width="400"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"></p>
+<p align="center"><img src="Images/data-12.png"  align="center" height="250" width="400"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"></p>
 
 Code Snippet
 ```html
