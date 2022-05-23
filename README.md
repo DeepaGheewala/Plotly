@@ -147,6 +147,11 @@ Code Snippet
 ...
 ```
 #### 2) - Make Page Responsive
+By making below changes the page
+- displays a scroll bar upon resizing the browser. 
+- The spacing and between the barchart and gauge chart gets adjusted upon resizing.
+
+
 <p align="center"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"><img src="Images/resizing.png"  align="center" height="250" width="400"></p>
 
 Code Snippet
@@ -177,3 +182,11 @@ Code Snippet
      
     }];
 ```
+
+## Resources
+1) javascript
+2) html
+3) bootstrap
+4) plotly library
+5) D3 library
+6) json files
