@@ -187,6 +187,8 @@ Code Snippet
      
     }];
 ```
+## Deployed on Github
+This project has been live and deployed on Github @ https://deepagheewala.github.io/Plotly/
 
 ## Resources
 1) javascript
