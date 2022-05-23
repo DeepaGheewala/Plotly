@@ -92,7 +92,8 @@ function buildCharts(sample) {
       text        :otu_labels.slice(0,10).reverse(),
       type        :"bar",
       orientation :"h",
-      mode        :"markers"
+      mode        :"markers",
+      hoverlabel  : {bgcolor: "white", font: {color: 'red', font_family:"Verdana"} }
      
     }];
     // 9. Create the layout for the bar chart. 
