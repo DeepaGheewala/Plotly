@@ -152,7 +152,7 @@ By making below changes the page
 - The spacing and between the barchart and gauge chart gets adjusted upon resizing.
 
 
-<p align="center"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"><img src="Images/resizing.png"  align="center" height="250" width="400"></p>
+<p align="center"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"><img src="Images/resizing.png"  align="center" height="250" width="300"></p>
 
 Code Snippet
 
