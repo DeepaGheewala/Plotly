@@ -11,7 +11,7 @@ To prove the hypothesis she takes samples of people in her neighbourhood and acr
 ### Delivery 1 - Horizontal Bar Chart
 For each Test ID subject Number the Bar chart is created. 
 Bar chart displays OTU 
-<p align="center"> <img src="Images/HorizontalChart.png"  align="center" height="250" width="400"></p>
+<p align="center"> <img src="Images/HorizontalChart.png"  align="center" height="300" width="400"></p>
 
 The following code generates the above chart
 
@@ -54,7 +54,7 @@ var otu_ids
 
 ### Delivery 2: Bubble Chart
 For each Test ID subject Number the Bubble chart is created.
-<p align="center"><img src="Images/bubbleChart.png"  align="center" height="250" width="1000"></p>
+<p align="center"><img src="Images/bubbleChart.png"  align="center" height="300" width="1000"></p>
 
 Code to generate above chart
 
@@ -130,7 +130,7 @@ Code to generate above chart
 3 custom changes made for beautifying the dashboard and make it more readable. 
 
 #### 1) - Add an image to the jumbotron and change the label color
-<p align="center"><img src="Images/data-12.png"  align="center" height="250" width="400"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"></p>
+<p align="center"><img src="Images/data-12.png"  align="center" height="250" width="600"><img src="Images/HeaderStypling.png"  align="center" height="250" width="400"></p>
 
 Code Snippet
 ```html
