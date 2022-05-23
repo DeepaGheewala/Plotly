@@ -8,6 +8,11 @@ Rosa thinks that there is a microorganism which supplies the next best taste and
 
 To prove the hypothesis she takes samples of people in her neighbourhood and across the countries. She knows that she wants to create engaging and dynamic charts. It's her task to identify the best way to share her information with her audience.
 
+## Data Files
+1) [Chart.js](static/js/charts.js) - All the javascript code is written in this file 
+2) [index.html](index.html) - All the html code is written in this file
+3) [sample.json](sample.json) - Data file
+
 ### Delivery 1 - Horizontal Bar Chart
 For each Test ID subject Number the Bar chart is created. 
 Bar chart displays OTU 
